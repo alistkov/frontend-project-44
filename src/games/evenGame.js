@@ -2,9 +2,8 @@ import readlineSync from 'readline-sync';
 
 const isEven = (number) => number % 2 === 0;
 
-const generateRandomNumber = (min, max) => (
-  Math.floor(Math.random() * (max - min + 1)) + min
-);
+const generateRandomNumber = (min, max) =>
+  Math.floor(Math.random() * (max - min + 1)) + min;
 
 const createEvenGame = () => {
   console.log('Welcome to the Brain Games!');
@@ -19,7 +18,9 @@ const createEvenGame = () => {
     const userAnswer = readlineSync.question('Your answer: ');
 
     if (userAnswer !== correctAnswer) {
-      console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
+      console.log(
+        `'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`
+      );
       console.log(`Let's try again, ${name}!`);
       return;
     }
