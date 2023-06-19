@@ -17,4 +17,4 @@ To start the game, type `make` with the name of the game at the command prompt:
 make brain-even
 ```
 
-[![asciicast](https://asciinema.org/a/X04Gpe8fGol9IlAVBKLX9B3P2.svg)](https://asciinema.org/a/X04Gpe8fGol9IlAVBKLX9B3P2)
+[![asciicast](https://asciinema.org/a/PU9SUr77TEVyCuSYj5leu5taQ.svg)](https://asciinema.org/a/PU9SUr77TEVyCuSYj5leu5taQ)
