@@ -18,3 +18,11 @@ make brain-even
 ```
 
 [![asciicast](https://asciinema.org/a/PU9SUr77TEVyCuSYj5leu5taQ.svg)](https://asciinema.org/a/PU9SUr77TEVyCuSYj5leu5taQ)
+
+## Brain calc game
+
+```
+make brain-calc
+```
+
+[![asciicast](https://asciinema.org/a/wlRX1wzUqy3pu2BVtDWFKeLPe.svg)](https://asciinema.org/a/wlRX1wzUqy3pu2BVtDWFKeLPe)
