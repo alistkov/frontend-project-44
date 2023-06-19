@@ -1,18 +1,5 @@
 import readlineSync from 'readline-sync';
-
-const generateRandomNumber = (min, max) =>
-  Math.floor(Math.random() * (max - min + 1)) + min;
-
-const getOperationResult = (first, second, operation) => {
-  switch (operation) {
-    case '+':
-      return first + second;
-    case '-':
-      return first - second;
-    case '*':
-      return first * second;
-  }
-};
+import { generateRandomNumber, getOperationResult } from '../helpers.js';
 
 const createCalcGame = () => {
   console.log('Welcome to the Brain Games!');
