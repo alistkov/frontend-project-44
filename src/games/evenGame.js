@@ -1,7 +1,7 @@
 import runGame from '../index.js';
 import { generateRandomNumber, isEven, roundsCount } from '../helpers.js';
 
-const createEvenGame = () => {
+const runEvenGame = () => {
   const rules = 'Answer "yes" if the number is even, otherwise answer "no".';
   const gameData = [];
   for (let i = 1; i <= roundsCount; i += 1) {
@@ -12,4 +12,4 @@ const createEvenGame = () => {
   runGame(rules, gameData);
 };
 
-export default createEvenGame;
+export default runEvenGame;

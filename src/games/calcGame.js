@@ -5,7 +5,7 @@ import {
   roundsCount,
 } from '../helpers.js';
 
-const createCalcGame = () => {
+const runCalcGame = () => {
   const rules = 'What is the result of the expression?';
   const gameData = [];
   const operations = ['+', '-', '*'];
@@ -21,4 +21,4 @@ const createCalcGame = () => {
   runGame(rules, gameData);
 };
 
-export default createCalcGame;
+export default runCalcGame;
