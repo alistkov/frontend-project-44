@@ -25,4 +25,21 @@ const calculateGcd = (first, second) => {
   return calculateGcd(second, first % second);
 };
 
-export { isEven, generateRandomNumber, getOperationResult, calculateGcd };
+const generateProgression = (startElement, progressionLength, step) => {
+  const progression = [];
+  for (let i = 0; i < progressionLength; i += 1) {
+    progression.push(startElement + step * i);
+  }
+  const missingElementIndex = generateRandomNumber(1, progressionLength);
+  const missingElement = progression[missingElementIndex];
+  progression[missingElementIndex] = '..';
+  return [progression, missingElement];
+};
+
+export {
+  isEven,
+  generateRandomNumber,
+  getOperationResult,
+  calculateGcd,
+  generateProgression,
+};
