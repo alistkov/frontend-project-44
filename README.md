@@ -26,3 +26,11 @@ make brain-calc
 ```
 
 [![asciicast](https://asciinema.org/a/wlRX1wzUqy3pu2BVtDWFKeLPe.svg)](https://asciinema.org/a/wlRX1wzUqy3pu2BVtDWFKeLPe)
+
+## Brain GCD game
+
+```
+make brain-gcd
+```
+
+[![asciicast](https://asciinema.org/a/AzwxcVhxCNUAcDlQepTBUdb3F.svg)](https://asciinema.org/a/AzwxcVhxCNUAcDlQepTBUdb3F)
