@@ -18,4 +18,11 @@ const getOperationResult = (first, second, operation) => {
   }
 };
 
-export { isEven, generateRandomNumber, getOperationResult };
+const calculateGcd = (first, second) => {
+  if (second === 0) {
+    return first;
+  }
+  return calculateGcd(second, first % second);
+};
+
+export { isEven, generateRandomNumber, getOperationResult, calculateGcd };

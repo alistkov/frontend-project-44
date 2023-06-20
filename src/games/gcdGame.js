@@ -1,12 +1,5 @@
 import runGame from '../index.js';
-import { generateRandomNumber, roundsCount } from '../helpers.js';
-
-const calculateGcd = (a, b) => {
-  if (b === 0) {
-    return a;
-  }
-  return calculateGcd(b, a % b);
-};
+import { generateRandomNumber, roundsCount, calculateGcd } from '../helpers.js';
 
 const runGcdGame = () => {
   const rules = 'Find the greatest common divisor of given numbers.';
