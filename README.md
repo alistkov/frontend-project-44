@@ -14,7 +14,7 @@ To start the game, type `make` with the name of the game at the command prompt:
 ## Brain even game
 
 ```
-make brain-even
+brain-even
 ```
 
 [![asciicast](https://asciinema.org/a/PU9SUr77TEVyCuSYj5leu5taQ.svg)](https://asciinema.org/a/PU9SUr77TEVyCuSYj5leu5taQ)
@@ -22,7 +22,7 @@ make brain-even
 ## Brain calc game
 
 ```
-make brain-calc
+brain-calc
 ```
 
 [![asciicast](https://asciinema.org/a/wlRX1wzUqy3pu2BVtDWFKeLPe.svg)](https://asciinema.org/a/wlRX1wzUqy3pu2BVtDWFKeLPe)
@@ -30,7 +30,15 @@ make brain-calc
 ## Brain GCD game
 
 ```
-make brain-gcd
+brain-gcd
 ```
 
 [![asciicast](https://asciinema.org/a/AzwxcVhxCNUAcDlQepTBUdb3F.svg)](https://asciinema.org/a/AzwxcVhxCNUAcDlQepTBUdb3F)
+
+## Brain progression game
+
+```
+brain-progression
+```
+
+[![asciicast](https://asciinema.org/a/9vTbB0Z4ER3o5TOOvHoP5ffKC.svg)](https://asciinema.org/a/9vTbB0Z4ER3o5TOOvHoP5ffKC)
