@@ -36,10 +36,26 @@ const generateProgression = (startElement, progressionLength, step) => {
   return [progression, missingElement];
 };
 
+const isPrime = (number) => {
+  if (number === 1) {
+    return false;
+  }
+  if (number === 2) {
+    return true;
+  }
+  for (let i = 2; i < number; i += 1) {
+    if (number % i === 0) {
+      return false;
+    }
+  }
+  return true;
+};
+
 export {
   isEven,
   generateRandomNumber,
   getOperationResult,
   calculateGcd,
   generateProgression,
+  isPrime,
 };

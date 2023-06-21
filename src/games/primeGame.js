@@ -1,20 +1,5 @@
 import runGame from '../index.js';
-import { roundsCount, generateRandomNumber } from '../helpers.js';
-
-const isPrime = (number) => {
-  if (number === 1) {
-    return false;
-  }
-  if (number === 2) {
-    return true;
-  }
-  for (let i = 2; i < number; i += 1) {
-    if (number % i === 0) {
-      return false;
-    }
-  }
-  return true;
-};
+import { roundsCount, generateRandomNumber, isPrime } from '../helpers.js';
 
 const runPrimeGame = () => {
   const rules = 'Answer "yes" if given number is prime. Otherwise answer "no".';
