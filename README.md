@@ -42,3 +42,11 @@ brain-progression
 ```
 
 [![asciicast](https://asciinema.org/a/9vTbB0Z4ER3o5TOOvHoP5ffKC.svg)](https://asciinema.org/a/9vTbB0Z4ER3o5TOOvHoP5ffKC)
+
+## Brain prime game
+
+```
+brain-prime
+```
+
+[![asciicast](https://asciinema.org/a/0vGlA9fFdlQS2R6m8sPmT7yMU.svg)](https://asciinema.org/a/0vGlA9fFdlQS2R6m8sPmT7yMU)
