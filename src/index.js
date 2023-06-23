@@ -6,13 +6,12 @@ const runGame = (rules, gameData) => {
   console.log(`Hello, ${name}!`);
   console.log(rules);
 
-  for (const [question, correctAnswer] of gameData) {
+  for (const round of gameData) {
+    const [question, correctAnswer] = round;
     console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question('Your answer: ');
     if (userAnswer !== correctAnswer) {
-      console.log(
-        `'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`
-      );
+      console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
       console.log(`Let's try again, ${name}!`);
       return;
     }
