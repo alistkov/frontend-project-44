@@ -27,7 +27,7 @@ const calculateGcd = (first, second) => {
 
 const generateProgression = (startElement, progressionLength, step) => {
   const progression = [];
-  for (let i = 0; i < progressionLength; i += 1) {
+  for (let i = 0; i < progressionLength - 1; i += 1) {
     progression.push(startElement + step * i);
   }
   const missingElementIndex = generateRandomNumber(1, progressionLength);
