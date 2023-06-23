@@ -6,8 +6,8 @@ const runGame = (rules, gameData) => {
   console.log(`Hello, ${name}!`);
   console.log(rules);
 
-  for (const round of gameData) {
-    const [question, correctAnswer] = round;
+  for (let i = 0; i < gameData.length; i += 1) {
+    const [question, correctAnswer] = gameData[i];
     console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question('Your answer: ');
     if (userAnswer !== correctAnswer) {
