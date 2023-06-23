@@ -7,7 +7,7 @@ const runGame = (rules, gameData) => {
   console.log(rules);
 
   for (const [question, correctAnswer] of gameData) {
-    console.log(`Question ${question}`);
+    console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question('Your answer: ');
     if (userAnswer !== correctAnswer) {
       console.log(
